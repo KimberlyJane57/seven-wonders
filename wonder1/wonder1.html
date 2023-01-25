@@ -10,6 +10,9 @@
     />
     <link rel="stylesheet" href="../Assets/css/style.css" />
     <title>Wonder 1 - Mont Saint-Michel, France</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+   
   </head>
   <body>
     <header>
@@ -35,10 +38,20 @@
       >
 
       <h3>Google Earth Map</h3>
+      
 
       <h4>TripAdvisor</h4>
     </main>
 
+
+    <div id="map"></div>
+    <div id="pano"></div>
+
+    
     <script src="./assets/js/w1script.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwaFo3BogmCaeg4GdJkRBLigEA1vHZzF4&callback=initialize&v=weekly"
+      defer
+    ></script>
   </body>
 </html>
