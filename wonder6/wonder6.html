@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,51 +9,85 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
     <link rel="stylesheet" href="../Assets/css/style.css" />
-    <title>Wonder 1</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Wonder 6 - The Lake District, Great Britain</title>
   </head>
 
-<body>
-    <section class="section">        
-        <div class="container">
-            <img src="../Assets/images/theLakeDistrict.webp" alt="The Lake District, Great Britain">
-          <h1 class="title">
-            Sixth Wonder
-          </h1>
-          <p class="subtitle">
-            <strong>The Lake District</strong>, Great Britain
-          </p>
-        </div>
-        <div class="columns">
-            <div class="column">
-                <div class="card">
-                    <div class="card-content">
-                      <div class="content">
-                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-                      </div>
-                    </div>
-                  </div>
+  <body>
+    <section class="section">
+      <div class="container">
+        <img
+          src="../Assets/images/theLakeDistrictGreatBritainResize.png"
+          alt="Trees and Lake at The Lake District, Great Britain"
+        />
+        <h1 class="title">6. The Lake District, Great Britain</h1>
+        <p class="subtitle">
+          <strong>The Lake District</strong>, Great Britain
+        </p>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h2>Description</h2>
+                <p>
+                  Spanning 190 miles across Northern England from St Bees on the
+                  Irish Sea to Robin Hood Bay on the North Sea, it has grown to
+                  become the most popular long-distance hike in the country. The
+                  most beautiful part of all is the section which crosses the
+                  Lake District. This treasured national park is filled to the
+                  brim with wonders: Lake Windemere, the largest body of water
+                  in the park; Stock Ghyll Force, one of the country’s most
+                  spectacular waterfalls; Scafell Pike, the 3,209-feet highest
+                  peak in England, and more.
+                </p>
+                <a
+                  href="https://www.cntraveler.com/gallery/new-seven-wonders-of-the-world-2023"
+                  >Article for 7 Wonders of the World 2023</a
+                >
+              </div>
             </div>
-            <div class="column">
-                <div class="card">
-                    <div class="card-content">
-                      <div class="content">
-                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <div class="card-content">
-                      <div class="content">
-                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-                      </div>
-                    </div>
-                  </div>
-            </div>            
           </div>
-      </section>
-    <script src="./assets/js/w6script.js"></script>
-</body>
-</html>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at
+                eros. Donec id elit non mi porta gravida at eget metus. Cum
+                sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Cras mattis consectetur purus sit amet
+                fermentum.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at
+                eros. Donec id elit non mi porta gravida at eget metus. Cum
+                sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Cras mattis consectetur purus sit amet
+                fermentum.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <h3>Google Map</h3>
+    <br />
+    <div id="map"></div>
+    <div id="pano"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwaFo3BogmCaeg4GdJkRBLigEA1vHZzF4&callback=initialize&v=weekly"
+      defer
+    ></script>
+    <script src="./js/w6script.js"></script>
+  </body>
+</html>
