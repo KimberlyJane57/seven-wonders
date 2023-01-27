@@ -24,3 +24,4 @@ function initialize() {
 }
 
 window.initialize = initialize;
+
