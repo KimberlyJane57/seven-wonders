@@ -9,53 +9,83 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
     <link rel="stylesheet" href="../Assets/css/style.css" />
-    <title>Wonder 1</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Wonder 5 - Cappadocia, Turkey</title>
   </head>
-<body>
+  <body>
     <section class="section">
-        <div class="container">
-            <img src="../Assets/images/20Turkey-GettyImages-1297084529.webp" alt="Cappadocia, Turkey">
-          <h1 class="title">
-            Fifth Wonder
-          </h1>
-          <p class="subtitle">
-            <strong>Cappadocia</strong>, Turkey
-          </p>
-        </div>
-        <div class="columns">
-            <div class="column">
-                <div class="card">
-                    <div class="card-content">
-                      <div class="content">
-                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-                      </div>
-                    </div>
-                  </div>
+      <div class="container">
+        <header>
+          <img
+            src="../Assets/images/cappadociaTurkeyResize.png"
+            alt="Hot air balloons flying over Cappadocia, Turkey"
+          />
+          <h1 class="title">5. Cappadocia, Turkey</h1>
+          <p class="subtitle"><strong>Cappadocia</strong>, Turkey</p>
+        </header>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h2>Description</h2>
+                <p>
+                  One of the world's natural wonders is Cappadocia. This
+                  otherworldy expanse of enormous rock towers, called 'Fairy
+                  Chimneys', streaked in red and ochre with wind-sculpted
+                  crowns, is one of the most surreal landscapes on Eart.
+                  Starting around 1200 B.C. people began carving homes inside
+                  the rock itseld. The rock homes of Cappadocia are like works
+                  for art, with detailed facades, doors, windows, and staircases
+                  hewn from the mountain within. Entire towns have been hollowed
+                  out under the ground like inverted skyscapers.
+                </p>
+                <a
+                  href="https://www.cntraveler.com/gallery/new-seven-wonders-of-the-world-2023"
+                  >Article for 7 Wonders of the World 2023</a
+                >
+              </div>
             </div>
-            <div class="column">
-                <div class="card">
-                    <div class="card-content">
-                      <div class="content">
-                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <div class="card-content">
-                      <div class="content">
-                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-                      </div>
-                    </div>
-                  </div>
-            </div>            
           </div>
-      </section>
-      
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                Travel Details FAQ
+                <a
+                  href="https://turkeytravelplanner.com/details/index.html"
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at
+                eros. Donec id elit non mi porta gravida at eget metus. Cum
+                sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Cras mattis consectetur purus sit amet
+                fermentum.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <h3>Google Map</h3>
+    <br />
+    <div id="map"></div>
+    <div id="pano"></div>
 
-
-    <script src="\assets\js\w5script.js"></script>
-</body>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwaFo3BogmCaeg4GdJkRBLigEA1vHZzF4&callback=initialize&v=weekly"
+      defer
+    ></script>
+    <script src="./js/w5script.js"></script>
+  </body>
 </html>
