@@ -21,7 +21,7 @@ fetch(
 function tripAdvisorDetails(data) {
   for (var i = 0; i < 7; i++) {
     if (
-      data[i].location_id !== "11446402" ||
+      data[i].location_id !== "11446402" &&
       data[i].location_id !== "11457621"
     ) {
       fetch(
@@ -38,16 +38,4 @@ function tripAdvisorDetails(data) {
         });
     }
   }
-  // fetch(
-  //   "http://localhost:8080/https://api.content.tripadvisor.com/api/v1/location/" +
-  //     location_id +
-  //     "/details?key=29CB0A3EE8A74953A71A7964758809DA&language=en&currency=USD"
-  // )
-  //   .then((response) => response.json())
-  //   .then(function (data) {
-  //     // console.log(data);
-  //     if (data) {
-  //       console.log(data);
-  //     }
-  //   });
 }
