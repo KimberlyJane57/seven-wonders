@@ -9,7 +9,7 @@ const pageCount = Math.ceil(listItems.length / paginationLimit);
 let currentPage;
 
 const appendPageNumber = (index) => {
-    const pageNumber = document.createElement("button");
+    const pageNumber = document.createElement("aria-label");
     pageNumber.className = "pagination-number";
     pageNumber.innerHTML = index;
     pageNumber.setAttribute("page-index", index);
