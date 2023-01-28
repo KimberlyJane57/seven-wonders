@@ -15,7 +15,7 @@ body {
   height: 50%;
   width: 25%;
 }
-.card1{
+#card1{
   height: 365px;
   width: 400px;
 }
@@ -23,4 +23,8 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+nav{
+  position:absolute;
+  bottom: 0px;
 }
