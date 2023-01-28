@@ -18,6 +18,7 @@ body {
 #card1{
   height: 365px;
   width: 400px;
+  white-space: normal; 
 }
 body {
   background-size: cover;
