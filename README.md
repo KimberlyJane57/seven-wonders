@@ -1,4 +1,5 @@
 # seven-wonders
+![alt text](https://github.com/[KimberlyJane57]/[seven-wonders]/blob/[main]/image.jpg?raw=true)
 
 Article
 https://www.cntraveler.com/gallery/new-seven-wonders-of-the-world-2023
