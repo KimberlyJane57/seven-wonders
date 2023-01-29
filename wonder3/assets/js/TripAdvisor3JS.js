@@ -6,17 +6,20 @@ const options = {
   cors: "no-cors",
 };
 
+// TripAdvisor API - Location Search API must first obtain unique Location ID, fetch function to obtain Location ID.
+
 fetch(
-  "http://localhost:8080/https://api.content.tripadvisor.com/api/v1/location/search?key=29CB0A3EE8A74953A71A7964758809DA&searchQuery=Mont%20St%20Michel%2C%20France&category=hotel&language=en",
+  "http://localhost:8080/https://api.content.tripadvisor.com/api/v1/location/search?key=29CB0A3EE8A74953A71A7964758809DA&searchQuery=AlUla%2C%20Saudi%20Arabia&category=Hotels&language=en",
   options
 )
-  //  url: 'https://api.content.tripadvisor.com/api/v1/location/search?key=29CB0A3EE8A74953A71A7964758809DA&searchQuery=cappadocia%2C%20turkey&category=hotel&language=en',
   .then((response) => response.json())
   .then(function (data) {
     console.log(data);
 
     tripAdvisorDetails(data.data);
   });
+
+// TripAdvisor API - Location Details API requires Location ID to return comprehensive information about a location, fetch function to obtain details.
 
 function tripAdvisorDetails(data) {
   for (var i = 0; i < 7; i++) {
