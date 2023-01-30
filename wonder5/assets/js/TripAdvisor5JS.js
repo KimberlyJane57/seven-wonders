@@ -1,4 +1,5 @@
 let TripApiKey = "29CB0A3EE8A74953A71A7964758809DA";
+const contentContainer = document.getElementById("content");
 
 const options = {
   method: "GET",
@@ -22,11 +23,8 @@ fetch(
 // TripAdvisor API - Location Details API requires Location ID to return comprehensive information about a location, fetch function to obtain details.
 
 function tripAdvisorDetails(data) {
-  for (var i = 0; i < 7; i++) {
-    if (
-      data[i].location_id !== "11446402" &&
-      data[i].location_id !== "11457621"
-    ) {
+  for (var i = 0; i < 4; i++) {
+    if (data[i].location_id !== "17534307") {
       fetch(
         "http://localhost:8080/https://api.content.tripadvisor.com/api/v1/location/" +
           data[i].location_id +
@@ -34,9 +32,19 @@ function tripAdvisorDetails(data) {
       )
         .then((response) => response.json())
         .then(function (data) {
-          // console.log(data);
           if (data) {
-            console.log(data);
+            console.log("SUCCESS", data);
+            const card = document.createElement("div");
+            card.classList.add("box");
+            card.innerHTML = `             
+            <div id="ta-name"><p>Name: ${data.name}</p></div>
+            <div id="ta-address"><p>Address: ${data.address_obj.address_string}</p></div>
+            <div id="ta-description"><p>Category: ${data.category.name}</p></div>
+            <div id="ta-rating"><p>Rating: ${data.rating}</p></div>
+            <button id="ta-button" class="button">
+            <a href="${data.web_url}">See More</a>
+            </button>`;
+            contentContainer.appendChild(card);
           }
         });
     }
