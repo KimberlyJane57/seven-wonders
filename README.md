@@ -6,14 +6,12 @@ Our motivation for this app is to get people interested in learning about the ne
 As an uninspired traveler, I want to be able to research and view new places of interest for upcoming travel. 
 
 ## Usage
-![alt text](Assets\images\Screenshot-readMe.png)
-![alt text](Assets\images\Screenshot1stWonder.png)
+![Home Page](/Assets/images/Screenshot-readMe.png)
+![Wonder 1](/Assets/images/Screenshot1stWonder.png)
 
 ## Credits
 
-https://github.com/ItsMARPON
-https://github.com/kduesler
-https://github.com/mmohamed12452 
+https://github.com/ItsMARPON  -  https://github.com/kduesler  -  https://github.com/mmohamed12452
 
 
 Article
