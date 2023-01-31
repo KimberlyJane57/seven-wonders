@@ -5,6 +5,10 @@ Aerial view of each wonder using the Google Maps API and a list of location deta
 Our motivation for this app is to get people interested in learning about the new 7 Wonders for 2023 and inspire them to go visit these beautiful locations. 
 As an uninspired traveler, I want to be able to research and view new places of interest for upcoming travel. 
 
+## Installation
+
+https://github.com/coreybutler/nvm-windows/releases/download/1.1.10/nvm-setup.exe - Download node - nvm install 16 - nvm use 16.19.0 - node --version - npm install cors-anywhere - node corshelper.js
+
 ## Usage
 ![Home Page](/Assets/images/Screenshot-readMe.png)
 ![Wonder 1](/Assets/images/Screenshot1stWonder.png)
