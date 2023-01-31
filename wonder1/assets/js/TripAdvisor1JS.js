@@ -49,12 +49,9 @@ function tripAdvisorDetails(data) {
             </button>`;
             contentContainer.appendChild(card);
             let nameOfSite = `${data.name}`;
-            $("#ta-button").on("click", function (event) {
-              event.preventDefault();
-              localStorage.setItem("name", JSON.stringify(nameOfSite));
-              let name1 = JSON.parse(window.localStorage.getItem("name"));
-              console.log(name1);
-            });
+            localStorage.setItem("name", JSON.stringify(nameOfSite));
+            let name1 = JSON.parse(window.localStorage.getItem("name"));
+            console.log(name1);
           }
         });
     }
