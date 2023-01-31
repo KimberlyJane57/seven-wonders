@@ -1,5 +1,20 @@
 # seven-wonders
-![alt text](https://github.com/[KimberlyJane57]/[seven-wonders]/blob/[main]/image.jpg?raw=true)
+
+## Description
+Aerial view of each wonder using the Google Maps API and a list of location details including hotels, restaurants and attractions near it using the TripAdvisor API. 
+Our motivation for this app is to get people interested in learning about the new 7 Wonders for 2023 and inspire them to go visit these beautiful locations. 
+As an uninspired traveler, I want to be able to research and view new places of interest for upcoming travel. 
+
+## Usage
+![alt text](Assets\images\Screenshot-readMe.png)
+![alt text](Assets\images\Screenshot1stWonder.png)
+
+## Credits
+
+https://github.com/ItsMARPON
+https://github.com/kduesler
+https://github.com/mmohamed12452 
+
 
 Article
 https://www.cntraveler.com/gallery/new-seven-wonders-of-the-world-2023
@@ -23,3 +38,6 @@ https://www.lonelyplanet.com/articles/guide-to-the-lake-district
 
 The Sardine Run, South Africa
 https://diveintolife.blog/sardine-run-south-africa/
+
+## License
+MIT License
