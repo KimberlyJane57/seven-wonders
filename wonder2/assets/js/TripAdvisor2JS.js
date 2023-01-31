@@ -50,6 +50,13 @@ function tripAdvisorDetails(data) {
             <a href="${data.web_url}">See More</a>
             </button>`;
             contentContainer.appendChild(card);
+            let nameOfSite = `${data.name}`;
+            $("#ta-button").on("click", function (event) {
+              event.preventDefault();
+              localStorage.setItem("name", JSON.stringify(nameOfSite));
+              let name1 = JSON.parse(window.localStorage.getItem("name"));
+              console.log(name1);
+            });
           }
         });
     }
